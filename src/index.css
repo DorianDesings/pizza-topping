@@ -1,3 +1,8 @@
 body {
+	height: 100vh;
+	margin: 0;
+	color: aliceblue;
+	background-image: linear-gradient(rgb(90, 0, 90), rgb(159, 0, 159));
+	background-repeat: no-repeat;
 	font-family: sans-serif;
 }

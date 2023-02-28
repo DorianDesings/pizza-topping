@@ -5,8 +5,8 @@ import Router from './router/Router';
 const App = () => {
 	return (
 		<BrowserRouter>
-			<Header />
 			<Router />
+			<Header />
 		</BrowserRouter>
 	);
 };
