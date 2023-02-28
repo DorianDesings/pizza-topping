@@ -13,7 +13,10 @@ const Router = ({ pizza, setPizza }) => {
 				path='/base'
 				element={<Base pizza={pizza} setPizza={setPizza} />}
 			/>
-			<Route path='/toppings' element={<Toppings />} />
+			<Route
+				path='/toppings'
+				element={<Toppings pizza={pizza} setPizza={setPizza} />}
+			/>
 			<Route path='/order' element={<Order />} />
 			<Route path='*' element={<NotFound />} />
 		</Routes>
